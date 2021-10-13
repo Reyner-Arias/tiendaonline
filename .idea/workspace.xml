@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a505b3cf-ebc8-4ce7-baa1-640121525d62" name="Changes" comment="" />
+    <list default="true" id="a505b3cf-ebc8-4ce7-baa1-640121525d62" name="Changes" comment="Cliente 45%">
+      <change afterPath="$PROJECT_DIR$/servidor/Aqui va lo del servidor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +47,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634103907158</updated>
-      <workItem from="1634103915922" duration="11444000" />
+      <workItem from="1634103915922" duration="11792000" />
     </task>
+    <task id="LOCAL-00001" summary="Cliente 45%">
+      <created>1634117563111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634117563111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cliente 45%" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cliente 45%" />
   </component>
 </project>
