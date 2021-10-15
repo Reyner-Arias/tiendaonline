@@ -10,6 +10,16 @@ h1 {
     position: relative
 }
 
+#Perfil {
+    font-family: "Chapaza";
+    font-weight: bold;
+    font-size: 250px;
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+    position: relative
+}
+
 h5 {
     font-family: "Chapaza";
     font-weight: bold;
@@ -49,6 +59,22 @@ h4 {
     text-align: center;
     font-size: 50px;
 }
+
+#h4Fuera2 {
+    color: white;
+    font-weight: bold;
+    font-family: "Chapaza";
+    text-align: center;
+    font-size: 40px;
+}
+
+#BillsFormat {
+    color: white;
+    font-weight: bold;
+    font-family: "Chapaza";
+    font-size: 30px;
+}
+
 #footerAbsolute {
     text-align: center;
     padding: 30px 100px;
@@ -59,4 +85,43 @@ h4 {
     color: white;
     font-size: 11px;
     font-weight: bold;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#buttonComprar {
+    color: white;
+    background-color: #fa8fb1;
+    border: 8px solid white;
+    font-family: "Chapaza";
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#buttonComprar:hover {
+    color: white;
+    background-color: #d86d85;
+    border-color: white;
+}
+
+#buttonEliminar {
+    color: #7fb2a1;
+    background-color: #c7e5dc;
+    border: 3px solid white;
+    font-family: "Chapaza";
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#buttonEliminar:hover {
+    color: white;
+    background-color: #508976;
+    border-color: white;
 }

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a505b3cf-ebc8-4ce7-baa1-640121525d62" name="Changes" comment="Cliente 45%">
-      <change afterPath="$PROJECT_DIR$/servidor/Aqui va lo del servidor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/src/components/ProductInf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/src/components/bill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/src/components/bills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/NavbarComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/NavbarComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/carrito.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/carrito.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/components/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/components/sign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/css/Style-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/css/Style-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +32,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cliente/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -48,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634103907158</updated>
       <workItem from="1634103915922" duration="11792000" />
+      <workItem from="1634186879106" duration="12401000" />
     </task>
     <task id="LOCAL-00001" summary="Cliente 45%">
       <created>1634117563111</created>
@@ -72,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cliente 45%" />

@@ -4,6 +4,10 @@ import Products from './components/products';
 import Main from './components/main';
 import MyProfile from './components/profile';
 import Carrito from "./components/carrito";
+import ProductInf from "./components/ProductInf";
+import Bills from "./components/bills";
+import Bill from "./components/bill";
+import Login from "./components/login";
 
 function Routes(){
     return(
@@ -14,6 +18,10 @@ function Routes(){
                 <Route exact path="/Products" component ={Products}/>
                 <Route exact path="/MyProfile" component ={MyProfile}/>
                 <Route exact path="/Carrito" component ={Carrito}/>
+                <Route exact path="/ProductInf/:id/:name/:description/:cost" component ={ProductInf}/>
+                <Route exact path="/Bills" component ={Bills}/>
+                <Route exact path="/Bill/:id" component ={Bill}/>
+                <Route exact path="/Login" component ={Login}/>
 
             </Switch>
         </BrowserRouter>

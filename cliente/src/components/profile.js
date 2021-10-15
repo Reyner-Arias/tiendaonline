@@ -6,15 +6,8 @@ import Cookies from "universal-cookie";
 const cookies = new Cookies();
 
 export default class profile extends Component{
-    state = {
-        name: '',
-        Email: '',
-        birth:'',
-        picture:null,
-    }
-
     componentDidMount() {
-        if(!cookies.get('username')){
+        if(!cookies.get('email')){
             window.location.href="/";
         }
     }
@@ -22,46 +15,21 @@ export default class profile extends Component{
     render(){
         return(
             <div>
-                {console.log(this.state) }
-
-                <h1 className="center mt-3">My Profile</h1>
+                <h1 id="Perfil">Mi Perfil</h1>
                 <hr className="center container w-75"/>
-
-                <div className="center container w-100 p-8 py-2 my-3  mt-5">
+                <div className="w-100 p-8 py-2 my-3  mt-5">
                     <Row className="mb-5">
-                        <Col xs={6} md={2}>
-                            <img src={profile_img} className="rounded mb-2" width="200" height="200" />
-                            <Row>
-                                <Button className="mb-3" size="lg" variant="outline-success" type="submit" onClick = {this.onSubmit} >
-                                    Add profile image
-                                </Button>
-                            </Row>
-
-                        </Col>
-                        <Col xs={6}  md={2}>
-                        </Col>
-                        <Col xs={6} >
-                            <Col><h2>Name: {cookies.get('first_name') + " " +cookies.get('last_name')  } </h2></Col>
-                            <Col><h2>Email: {cookies.get('email') }</h2></Col>
-                            <Col><h2>Birthday: {cookies.get('birthday') }</h2></Col>
-                        </Col>
-
+                            <h2 id="h4Fuera2"> Nombre:  {cookies.get('first_name') + " " +cookies.get('last_name')} </h2>
+                            <h2 id="h4Fuera2"> Email: {cookies.get('email') }</h2>
                     </Row>
-                    <Row className="mb-5">
-                        <Button className="mb-3" size="lg" href='/MyProfile/EditUser' variant="outline-success" type="submit">
-                            Edit Profile
+                    <div className="abs-center p-8 py-2 my-3 mt-5">
+                        <Button id="buttonComprar" size="lg"  href='/Bills' type="submit"  >
+                            Ver compras realizadas
                         </Button>
-                    </Row>
+
+                    </div>
                 </div >
-
-                <footer id="footerAbsolute">
-                    <div>TEC-digitalito</div>
-                    <div>Versión 1.0 por Instituto Tecnológico de Costa Rica</div>
-                    <div>Semestre II de 2021. Bases de datos 2</div>
-                </footer>
-
             </div>
-
         )
     }
 }
