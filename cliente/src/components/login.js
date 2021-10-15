@@ -29,7 +29,8 @@ export default class login extends Component{
     onSubmit  = async (e) => {
             cookies.set('first_name',    "Luis",             {path: "/"});
             cookies.set('last_name',     "Rodríguez",        {path: "/"});
-            cookies.set('email',        "luisk37@gmail.com",{path: "/"});
+            cookies.set('email',        "josearce@gmail.com",{path: "/"});
+            cookies.set('password',       "123",{path: "/"});
             swal("Usuario encontrado","" ,"success").then((value) => {
                 window.location.href="/principal"
             })

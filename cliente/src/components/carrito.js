@@ -9,7 +9,7 @@ const cookies = new Cookies();
 
 export default class Carrito extends Component{
     state = {
-            products: [
+            products: [/*
                 {id:"0001",
                     name:"Cepillo de dientes",
                     description:"Economico y eficaz",
@@ -20,7 +20,7 @@ export default class Carrito extends Component{
                     description:"Economico y economico",
                     cost:2500
                 },
-                    ]
+                    */]
     }
 
     eliminarProducto(){
@@ -61,10 +61,10 @@ export default class Carrito extends Component{
         if(!cookies.get('email')){
             window.location.href="/main";
         }
-        /*const courses = await axios.get("http://localhost:3001/api/course/getNameEnrolledCourses",{ params:  {username: cookies.get('username')}})
-        console.log(courses)
-        this.setState({courses: courses.data})
-        */
+        const id ="josearce@gmail.com"
+        const products = await axios.get("http://localhost:3001/api/getBillShoppingCar/" + id /*cookies.get('email')*/)
+        console.log(products)
+        this.setState({products: products.data})
     }
 
     render(){

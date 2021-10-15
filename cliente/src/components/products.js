@@ -10,7 +10,7 @@ const cookies = new Cookies();
 
 export default class Products extends Component{
     state = {
-            products: [ {id:"0001",
+            products: [ /*{id:"0001",
                         name:"Cepillo de dientes",
                         description:"Economico y eficaz",
                         cost:2500
@@ -30,6 +30,7 @@ export default class Products extends Component{
                             description:"eficaz  y eficaz",
                             cost:2500
                         }
+                        */
                     ]
     }
 
@@ -38,10 +39,9 @@ export default class Products extends Component{
         if(!cookies.get('email')){
             window.location.href="/main";
         }
-        /*const courses = await axios.get("http://localhost:3001/api/course/getNameEnrolledCourses",{ params:  {username: cookies.get('username')}})
-        console.log(courses)
-        this.setState({courses: courses.data})
-        */
+        const products = await axios.get("http://localhost:3001/api/getAllProducts")
+        console.log(products.data)
+        this.setState({products: products.data})
     }
 
     render(){
@@ -54,9 +54,9 @@ export default class Products extends Component{
                         {
                             this.state.products.map((product => (
                                 <div className= "col-md-4 auth_holder mr-10 p-2" key={product.id}>
-                                    <div  className="card" Style="width:300px">
-                                        <a href={"/ProductInf/"+product.id+"/"+product.name+"/"+product.description+"/"+product.cost} >
-                                            <img className="card-img-top" src={img_default} alt="Card image"/>
+                                    <div  className="card" Style="width:400px">
+                                        <a href={"/ProductInf/"+product.id} >
+                                            <img className="card-img-top" src={product.image} alt="Card image"/>
                                             <div className="card-body ">
                                                 <h4 className="card-title">{product.name}</h4>
                                             </div>
